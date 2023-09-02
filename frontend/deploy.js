@@ -1,0 +1,5 @@
+module.exports = { 
+  admin: "0x70e535F451dcfDFc46ec1D049452Fc8701aD4224", 
+  mktAddress: "0x528385CA5f24466577CD2f14B845a6fA41BFea2f", 
+  nftAddress: "0x7BE68211e99B263cCe033879F709B98183aCEDC7"
+}
