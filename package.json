@@ -1,0 +1,17 @@
+{ 
+  "name": "nft-marketplace",
+  "version": "1.0.0",
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "scripts": {
+    "compile": "npx truffle compile", 
+    "deploy" : "npx truffle migrate --network goerli --reset", 
+    "publish": "npx truffle run verify Marketplace NFT --network goerli"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.7.3",
+    "@truffle/hdwallet-provider": "^2.1.1",
+    "truffle-plugin-verify": "^0.5.32"
+  }
+}
